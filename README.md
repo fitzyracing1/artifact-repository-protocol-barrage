@@ -1,2 +1,5 @@
 # artifact-repository-protocol-barrage
-Barrage plain-language clone of fitzyracing1/artifact-repository-protocol
+
+Barrage clone of [fitzyracing1/artifact-repository-protocol](https://github.com/fitzyracing1/artifact-repository-protocol).
+
+Read [listing.barrage](listing.barrage).

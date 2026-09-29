@@ -1,0 +1,43 @@
+# Artifact Repository Protocol
+
+> A protocol: keep every meaningful conversation artifact as versioned GitHub content. One repo per project. Structured paths for code, docs, research, history, changelogs.
+
+## Purpose
+Explain the protocol as a filing rule, not as a running app. Source: fitzyracing1/artifact-repository-protocol.
+
+## How it works (plain English)
+1. One repo per project.
+2. Put code, docs, research, history, and changelogs in named paths.
+3. Version the artifacts.
+4. Do not leave a useful file only in a chat.
+
+## Key ideas
+- One repo per project
+- Versioned artifacts
+- Structured paths
+
+## The actual code
+```
+# source: fitzyracing1/artifact-repository-protocol
+repo = one_per_project()
+paths = [code, docs, research, history, changelogs]
+version(artifact)
+```
+
+## Line-by-line translation
+1. one_per_project() → “do not dump all projects in one pile”
+2. paths = ... → “named shelves inside the repo”
+3. version(artifact) → “keep history of the file”
+
+## Decisions the program makes
+- If an artifact is only in chat → move it into the repo
+- If two projects share a file → still keep one repo each
+
+## What a person would notice
+A filing law for conversation output.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the source and copy the path layout onto the next project.
